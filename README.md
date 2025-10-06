@@ -4,8 +4,8 @@ Write a simple Python program for the modulation and demodulation of PSK and QPS
 # Tools required
 Google colab
 # Program
+# PSK
 ```
-# PSK 
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -60,8 +60,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+# QPSK
 ```
-# QPSK 
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -140,14 +140,13 @@ plt.grid(True)
 plt.show()
 ```
 # Output Waveform
+# PSK
 ```
-PSK
 <img width="1529" height="1006" alt="image" src="https://github.com/user-attachments/assets/b50bfd98-e60e-44a7-bcf6-6b27cfd4a4a5" />
-
-QPSK
+```
+# QPSK
+```
 <img width="1275" height="751" alt="image" src="https://github.com/user-attachments/assets/c7d6ffcc-d9b3-4b37-8987-106213b78cbc" />
-
-
 ```
 # Results
 ```
